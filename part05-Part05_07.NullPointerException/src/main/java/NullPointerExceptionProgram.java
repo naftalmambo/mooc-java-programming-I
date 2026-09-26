@@ -4,8 +4,12 @@ import java.util.ArrayList;
 public class NullPointerExceptionProgram {
 
     public static void main(String[] args) {
-        // Implement a program, or modify a program so, that it causes 
+        // Implement a program, or modify a program so, that it causes
         // the NullPointerException -error
+
+        Person naftal = new Person("Naftal Mambo");
+        naftal = null;
+        naftal.getName();
 
         ArrayList<String> lines = new ArrayList<>();
         lines.add("Never has a man influenced physics so profoundly as Niels Bohr in the early 1900's");
